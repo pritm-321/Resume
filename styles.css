@@ -1,0 +1,270 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Times, 'Times New Roman', serif;
+}
+body
+{
+    background: rgb(173, 230, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    min-height: 100px;
+    margin: 2rem auto;
+    background: rgb(250, 240, 198);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_Side
+{
+    position: relative;
+    background:#01776d;
+    padding: 20px;
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+    width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileText .imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBx img
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2
+{
+    color:#fff;
+    font-size: 1.3em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+.profileText h2 span
+{
+    font-size: 1em;
+    font-weight: 400;
+}
+.contactInfo
+{
+    padding-top: 5px;
+}
+.title
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing:1px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.contactInfo ul
+{
+    position: relative;
+}
+.contactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color:mediumturquoise;
+}
+.contactInfo ul li span
+{
+    color:ivory;
+    font-weight: 300;
+}
+.education li
+{
+    margin-bottom: 15px;
+    line-height: 1.5em;
+}
+.education h5 
+{
+    color:mediumturquoise;
+    font-weight: 700;
+}
+.education h4:nth-child(2)
+{
+    color:ivory;
+    font-weight: 300;
+}
+.education h4
+{
+    color:ivory;
+    font-weight: 300;
+}
+.language
+{
+    color:ivory;
+    font-weight: 300;
+    line-height: 1em;
+}
+.language .percent 
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background:rgb(0, 51, 94);
+    display: block;
+    margin-top: 7px;
+}
+.language .percent div 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: skyblue;
+    font-weight: 300;
+}
+.container .right_Side
+{
+    position:relative;
+    background:oldlace;
+    padding: 40px;
+}
+.about
+{
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    color:#003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{
+    color: #333;
+    text-align: justify;
+
+}
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+.about .box .certificate
+{
+    min-width: 200px;
+}
+.about .box .certificate h5
+{
+    
+    color:slategrey;
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 0.7px;
+}
+.about .box .text h4
+{
+    text-transform: uppercase;
+    color:midnightblue;
+    font-size: 16px ;
+}
+.skills .box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h4
+{
+    text-transform: uppercase;
+    color: slategrey;
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .box .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background:teal;
+    display: block;
+    margin-top: 7px;
+}
+.skills .box .percent div
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:powderblue;
+    font-weight: 300;
+}
+.interest
+{
+    margin-top: 50px;
+    font-weight: 300;
+    line-height: 1em;
+    font-size: 17px;
+}
+.interest ul
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.interest ul li
+{
+    list-style: none;
+    color:rgb(0, 51, 94);
+    font-weight: 00;
+    margin: 10px 0;
+}
+.interest ul li .fa 
+{
+    color: turquoise;
+    font-size: 20px;
+    width: 20px;
+}

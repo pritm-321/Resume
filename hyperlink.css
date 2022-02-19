@@ -1,0 +1,35 @@
+.contactInfo .text .hpl:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contactInfo .text .hpl:visited {
+  color: rgb(255, 253, 253);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contactInfo .text .hpl:hover {
+  color: rgb(0, 162, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.about .box .text .hpr:link{
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.about .box .text .hpr:visited {
+  color: rgb(4, 199, 20);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.about .box .text .hpr:hover {
+  color: rgb(0, 162, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
